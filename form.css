@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#form
+{
+    width: 450px;
+    margin:5vh auto;
+    border-radius: 5px;
+    padding:20px;
+    background-color:blanchedalmond;
+}
+h1
+{
+    color: green;
+    text-align: center;
+}
+#form button
+{
+    font-size: 20px;
+    padding:10px;
+    margin: 10px 0px;
+    color:white;
+    border:2px solid;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: green;
+    width: 100%;
+
+}
+.input-group
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:5px;position: relative;
+}
+.input-group input
+{
+    padding:10px;
+    margin-top:5px;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+    font-size:16px;
+}
+.input-group textarea
+{
+    padding:10px;
+    margin-top:5px;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+    font-size:14px;
+    height: 70px;
+
+}
+.input-group input:focus,.input-group textarea:focus
+{
+    outline: none;
+}
+.input-group .error
+{
+color:red;
+font-size: 13px;
+margin-top: 3px;
+}
+.input-group #user
+{
+    position: absolute;
+    right:5%;bottom: 24px;
+    font-size:18px;color: green;
+}
+.input-group #envelope
+{
+    position: absolute;
+    right:5%;bottom:24px;
+    font-size:18px;color: green;
+}
+.input-group #lock
+{
+    position: absolute;
+    right:5%;bottom: 24px;
+    font-size:18px;
+    color: green;
+}
+.input-group #phone
+{
+    position: absolute;
+    right:5%;bottom:24px;
+    font-size:18px;
+    color: green;
+}
+form #success
+{
+    color: green;
+}
+.input-group.success input,.input-group.success textarea
+{
+    border-color:#04cc77;
+}
+.input-group.error input,.input-group.error textarea
+{
+    border-color:rgb(205,67,67);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/26060f67f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="#" id="form">
+            <h1>REGISTER</h1>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username"><i id="user" class="fa-solid fa-user"></i>
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="email">E-Mail</label>
+                <input type="text" id="email" name="username"><i id="envelope" class="fa-solid fa-envelope"></i>
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"><i id="lock" class="fa-solid fa-lock"></i>
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="contact">Contat Number</label>
+                <input type="number" id="contact" name="contact"><i id="phone" class="fa-solid fa-phone"></i>
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea type="text" id="message" name="message"></textarea>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Register</button>
+            <p id="success"></p>
+        </form>
+    </div>
+   <script src="form.js"></script> 
+</body>
+</html>
